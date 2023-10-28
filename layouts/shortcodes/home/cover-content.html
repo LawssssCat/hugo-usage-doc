@@ -1,0 +1,8 @@
+<a class="btn btn-lg btn-primary me-3 mb-4" href="{{ with .Site.GetPage "docs" }}{{ .Permalink }}{{ end }} ">
+  阅读 <i class="fa-solid fa-circle-right ms-2"></i>
+</a>
+<a class="btn btn-lg btn-secondary me-3 mb-4" href="{{ .Site.Params.github_repo }}">
+  Github <i class="fa-brands fa-github ms-2 "></i>
+</a>
+
+{{ .Site.Params.site_description }}
