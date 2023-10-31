@@ -12,7 +12,7 @@ description: |
 
 {{% blocks/lead color="primary" %}}
 
-Hugo 是一个静态博客构建器，卓越的性能和完善的功能著称。 \
+Hugo 是一个静态博客构建器，以卓越的性能和完善的功能著称。 \
 本项目致力于梳理 Hugo 繁杂的功能，使你有一个更加轻松的使用体验。
 
 {{% /blocks/lead %}}

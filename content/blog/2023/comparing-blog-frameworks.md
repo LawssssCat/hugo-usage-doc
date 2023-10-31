@@ -20,7 +20,7 @@ description: |
         + [docuapi](https://github.com/bep/docuapi) - 用途：API文档
     + 问题：
         + 入门门槛相对高 (主要是概念多且相互关联。好在官方文档足够详细)
-+ [x] static | jekyll - Ruby 
++ [x] static | jekyll - Ruby
     + [github](https://github.com/jekyll/jekyll) | 2023年10月23日 star=47k
     + 问题：
         + 环境复杂 (主要是不熟悉 Ruby 环境)
@@ -32,7 +32,7 @@ description: |
         + 默认提供的功能相对有限
         + 插件需要定期更新维护
 + [ ] static | mkdocs - python
-    + [github](https://github.com/mkdocs/mkdocs) | 2023年10月20日 star=17k 
+    + [github](https://github.com/mkdocs/mkdocs) | 2023年10月20日 star=17k
     + themes
         + [mkdocs-material](https://github.com/squidfunk/mkdocs-material) | 2023年10月20日 16k star
 + [ ] static | mdBook - Rust
