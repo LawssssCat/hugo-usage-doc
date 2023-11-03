@@ -493,11 +493,11 @@ This is Content!
 &lt;/tr>
 &lt;tr>
 &lt;td>.Site.LastChange&lt;/td>
-&lt;td>2023-11-03 18:32:38 +0800 +0800&lt;/td>
+&lt;td>2023-11-03 20:31:38 +0800 +0800&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>.Site.Menus&lt;/td>
-&lt;td>map[main:[0xc0008afdc0 0xc0008afce0 0xc0008afc00]]&lt;/td>
+&lt;td>map[main:[0xc0008cc1c0 0xc0008cc0e0 0xc0008cc000]]&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>.Site.Pages&lt;/td>
