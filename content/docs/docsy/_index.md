@@ -1,5 +1,5 @@
 ---
-title: Docsy 常用记录
+title: "主题 | Docsy 常用记录"
 date: 2023-10-22T07:43:49+08:00
 description: |
     Docsy 是 Hugo 的一个主题。该主题适合作为产品文档。

@@ -14,4 +14,4 @@ weight: 60
 + `community` —— 社区
 + `swagger` —— API文档，示例：<https://github.com/cchesser/docs-as-code/>
 
-用法参考： [Hugo 的布局（Layout）概念]({{< ref "docs/hugo/layout" >}})
+用法参考： [Hugo 的布局（Layout）概念]({{< ref "docs/hugo/layout-usage" >}})

@@ -1,0 +1,135 @@
+
+使用 {{ transform.Highlight "{{.Name}}" "go-html-template" "hl_inline=true" }} 形式调用。
+
+## Shortcode
+
+### this Shortcode
+
+code | value
+--- | ---
+.Name | {{.Name}} 
+.Ordinal | {{.Ordinal}}
+.Page | see ".Page"
+.Parent | {{.Parent}}
+.Position | {{.Position}}
+.IsNamedParams | {{.IsNamedParams}} "{{.Get "param_01"}}"
+.Inner | "{{.Inner}}"
+.Scratch | {{.Scratch}}
+.InnerDeindent  | "{{.InnerDeindent }}"
+
+## Page
+
+### This Page
+
+<table>
+    <header>
+        <th>code</th>
+        <th>value</th>
+    </header>
+    <tbody>
+        <tr><td>.Page.AlternativeOutputFormats</td><td>{{ .Page.AlternativeOutputFormats }}</td></tr>
+        <tr><td>.Page.Aliases</td><td>{{.Page.Aliases}}</td></tr>
+        <tr><td>.Page.Ancestors</td><td>{{.Page.Ancestors}}</td></tr>
+        <tr><td>.Page.BundleType</td><td>{{.Page.BundleType}}</td></tr>
+        <tr><td>.Page.Content</td><td>"{{.Page.Content}}"</td></tr>
+        <tr><td>.Page.Data</td><td>{{.Page.Data}}</td></tr>
+        <tr><td>.Page.Date</td><td>{{.Page.Date}}</td></tr>
+        <tr><td>.Page.Description</td><td>"{{ .Page.Description }}"</td></tr>
+        <tr><td>.Page.Draft</td><td>`{{.Page.Draft}}`</td></tr>
+        <tr><td>.Page.ExpiryDate</td><td>{{.Page.ExpiryDate}}</td></tr>
+        <tr><td>.Page.File</td><td>{{.Page.File}}</td></tr>
+        <tr><td>.Page.Fragments</td><td>todo</td></tr>
+        <tr><td>.Page.FuzzyWordCount</td><td>{{.Page.FuzzyWordCount}}</td></tr>
+        <tr><td>.Page.IsHome</td><td>{{.Page.IsHome}}</td></tr>
+        <tr><td>.Page.IsNode</td><td>{{.Page.IsNode}}</td></tr>
+        <tr><td>.Page.IsPage</td><td>{{.Page.IsPage}}</td></tr>
+        <tr><td>.Page.IsSection</td><td>{{.Page.IsSection}}</td></tr>
+        <tr><td>.Page.IsTranslated</td><td>{{.Page.IsTranslated}}</td></tr>
+        <tr><td>.Page.Keywords</td><td>{{.Page.Keywords}}</td></tr>
+        <tr><td>.Page.Kind</td><td>{{.Page.Kind}}</td></tr>
+        <tr><td>.Page.Language</td><td>{{.Page.Language}}</td></tr>
+        <tr><td>.Page.Lastmod</td><td>{{.Page.Lastmod}}</td></tr>
+        <tr><td>.Page.LinkTitle</td><td>{{.Page.LinkTitle}}</td></tr>
+        <tr><td>.Page.Next</td><td>{{.Page.Next}}</td></tr>
+        <tr><td>.Page.NextInSection</td><td>{{.Page.NextInSection}}</td></tr>
+        <tr><td>.Page.OutputFormats</td><td>{{.Page.OutputFormats}}</td></tr>
+        <tr><td>.Page.Permalink</td><td>{{.Page.Permalink}}</td></tr>
+        <tr><td>.Page.Plain</td><td>{{.Page.Plain}}</td></tr>
+        <tr><td>.Page.PlainWords</td><td>{{.Page.PlainWords}}</td></tr>
+        <tr><td>.Page.Prev</td><td>{{.Page.Prev}}</td></tr>
+        <tr><td>.Page.PrevInSection</td><td>{{.Page.PrevInSection}}</td></tr>
+        <tr><td>.Page.PublishDate</td><td>{{.Page.PublishDate}}</td></tr>
+        <tr><td>.Page.RawContent</td><td>todo {{.Page.RawContent}}</td></tr>
+        <tr><td>.Page.RenderShortcodes</td><td>see "Shortcode"</td></tr>
+        <tr><td>.Page.ReadingTime</td><td>{{.Page.ReadingTime}}</td></tr>
+        <tr><td>.Page.Resources</td><td>{{.Page.Resources}}</td></tr>
+        <tr><td>.Page.Ref</td><td>todo</td></tr>
+        <tr><td>.Page.RelRef</td><td>todo</td></tr>
+        <tr><td>.Page.RelPermalink</td><td>{{.Page.RelPermalink}}</td></tr>
+        <tr><td>.Page.Site</td><td>see "Site"</td></tr>
+        <tr><td>.Page.Sites</td><td>todo</td></tr>
+        <tr><td>.Page.Summary</td><td>{{.Page.Summary}}</td></tr>
+        <tr><td>.Page.TableOfContents</td><td>{{.Page.TableOfContents}}</td></tr>
+        <tr><td>.Page.Title</td><td>{{.Page.Title}}</td></tr>
+        <tr><td>.Page.Translations</td><td>{{.Page.Translations}}</td></tr>
+        <tr><td>.Page.TranslationKey</td><td>{{.Page.TranslationKey}}</td></tr>
+        <tr><td>.Page.Truncated</td><td>{{.Page.Truncated}}</td></tr>
+        <tr><td>.Page.Type</td><td>{{.Page.Type}}</td></tr>
+        <tr><td>.Page.Weight</td><td>{{.Page.Weight}}</td></tr>
+        <tr><td>.Page.WordCount</td><td>{{.Page.WordCount}}</td></tr>
+    </tbody>
+</table>
+
+### "Home" Page
+
+{{ $pagehome := .Site.Home }}
+
+code | value 
+--- | ---
+Title | {{$pagehome.Title}}
+Kind | {{$pagehome.Kind}}
+Type | {{$pagehome.Type}}
+
+### Section Page
+
+{{ range .Site.Sections }}
+
+#### # "{{ .Title }}"
+
+code | value 
+--- | ---
+Title | {{.Title}}
+Kind | {{.Kind}}
+Type | {{.Type}}
+   
+{{ end }}
+
+
+
+
+
+## Site
+
+code | value 
+--- | ---
+.Site.AllPages
+.Site.BaseURL | {{.Site.BaseURL}}
+.Site.BuildDrafts
+.Site.Copyright | {{.Site.Copyright}}
+.Site.Data
+.Site.Home | {{.Site.Home}}
+.Site.IsMultiLingual | {{.Site.IsMultiLingual}}
+.Site.Language.Lang | {{.Site.Language.Lang}}
+.Site.Language.LanguageName | {{.Site.Language.LanguageName}}
+.Site.Language.Weight | {{.Site.Language.Weight}}
+.Site.Language | {{.Site.Language}}
+.Site.LanguageCode | {{.Site.LanguageCode}}
+.Site.LanguagePrefix | {{.Site.LanguagePrefix}}
+.Site.Languages | {{.Site.Languages}}
+.Site.LastChange | {{.Site.LastChange}}
+.Site.Menus | {{.Site.Menus}}
+.Site.Pages | {{.Site.Pages}}
+.Site.RegularPages | {{.Site.RegularPages}}
+.Site.Sections | {{.Site.Sections}}
+.Site.Taxonomies | {{.Site.Taxonomies}}
+.Site.Title | {{.Site.Title}}
