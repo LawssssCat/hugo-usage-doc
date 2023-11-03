@@ -1,0 +1,129 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Hugo 使用手册 – Blogging</title><link>/tags/blogging/</link><description>Recent content in Blogging on Hugo 使用手册</description><generator>Hugo -- gohugo.io</generator><language>zh-Hans</language><lastBuildDate>Sun, 22 Oct 2023 07:43:49 +0800</lastBuildDate><atom:link href="/tags/blogging/index.xml" rel="self" type="application/rss+xml"/><item><title>Blog: Markdown 效果展示</title><link>/blog/2023/test/</link><pubDate>Sun, 22 Oct 2023 07:43:49 +0800</pubDate><guid>/blog/2023/test/</guid><description>
+&lt;h1 id="h1">H1&lt;/h1>
+&lt;h2 id="h2-标题">H2 标题&lt;/h2>
+&lt;h3 id="h3">H3&lt;/h3>
+&lt;h4 id="h4">H4&lt;/h4>
+&lt;h5 id="h5">H5&lt;/h5>
+&lt;h6 id="h6">H6&lt;/h6>
+&lt;p>####### H7&lt;/p>
+&lt;p>######## H8&lt;/p>
+&lt;h2 id="emoji">emoji&lt;/h2>
+&lt;p>👨🏻‍💻 🕵️‍♂️ 🦌 🐳 🙄 🤹 💲&lt;/p>
+&lt;h2 id="表格">表格&lt;/h2>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>形状&lt;/th>
+&lt;th>边数&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>Triangle&lt;/td>
+&lt;td>3&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Square&lt;/td>
+&lt;td>4&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;table class="td-initial">
+&lt;thead>
+&lt;tr>
+&lt;th>形状&lt;/th>
+&lt;th>边数&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>Triangle&lt;/td>
+&lt;td>3&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Square&lt;/td>
+&lt;td>4&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h2 id="列表">列表&lt;/h2>
+&lt;ul>
+&lt;li>This is an unordered list following a header.&lt;/li>
+&lt;li>This is an unordered list following a header.&lt;/li>
+&lt;li>This is an unordered list following a header.&lt;/li>
+&lt;/ul>
+&lt;ol>
+&lt;li>This is an ordered list following a header.&lt;/li>
+&lt;li>This is an ordered list following a header.&lt;/li>
+&lt;li>This is an ordered list following a header.&lt;/li>
+&lt;/ol>
+&lt;ul>
+&lt;li>&lt;input checked="" disabled="" type="checkbox"> It may seem strange to see a &amp;ldquo;Hello&amp;rdquo; post from a project that&amp;rsquo;s several years old&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> but as Docsy matures as a community-driven project&lt;/li>
+&lt;li>&lt;input checked="" disabled="" type="checkbox"> we thought it was time to (re)introduce ourselves and talk about what&amp;rsquo;s new with your favorite (we hope) Hugo documentation theme!&lt;/li>
+&lt;/ul>
+&lt;h2 id="链接">链接&lt;/h2>
+&lt;p>Docsy now has a Project Steering Committee! The PSC members are &lt;a href="https://github.com/chalin">@chalin&lt;/a>, &lt;a href="https://github.com/LisaFC">@LisaFC&lt;/a>, &lt;a href="https://github.com/geriom">@geriom&lt;/a>, and &lt;a href="https://github.com/emckean">@emckean&lt;/a>. If you&amp;rsquo;re interested in serving on the PSC, open an &lt;a href="https://github.com/google/docsy/issues">issue&lt;/a> and nominate yourself!&lt;/p>
+&lt;h2 id="公式">公式&lt;/h2>
+&lt;h3 id="数学公式">数学公式&lt;/h3>
+&lt;p>KaTeX LaTeX&lt;/p>
+&lt;p>内联公式：&lt;/p>
+&lt;p>When \(a \ne 0\), there are two solutions to \(ax^2 + bx + c= 0\) and they are \(x = {-b \pm \sqrt{b^2-4ac} \over 2a}\).&lt;/p>
+&lt;p>显示模式的公式：&lt;/p>
+&lt;p>The probability of getting \(k\) heads when flipping \(n\) coins is:&lt;/p>
+&lt;div class="math">$$\tag*{(1)} P(E) = {n \choose k} p^k (1-p)^{n-k}$$&lt;/div>&lt;p>$$
+\tag*{(1)} P(E) = {n \choose k} p^k (1-p)^{n-k}
+$$&lt;/p>
+&lt;h3 id="化学方程式和物理单位的显示">化学方程式和物理单位的显示&lt;/h3>
+&lt;p>mhchem&lt;/p>
+&lt;p>&lt;em>Precipitation of barium sulfate:&lt;/em> \(\ce{SO4^2- + Ba^2+ -&amp;gt; BaSO4 v}\)&lt;/p>
+&lt;div class="chem">$$\tag*{(2)} \ce{Zn^2+ &lt;=>[+ 2OH-][+ 2H+] $\underset{\text{amphoteric hydroxide}}{\ce{Zn(OH)2 v}}$ &lt;=>[+ 2OH-][+ 2H+] $\underset{\text{tetrahydroxozincate}}{\ce{[Zn(OH)4]^2-}}$}$$&lt;/div>&lt;p>$$
+\tag*{(2)} \ce{Zn^2+ &amp;lt;=&amp;gt;[+ 2OH-][+ 2H+] $\underset{\text{amphoteric hydroxide}}{\ce{Zn(OH)2 v}}$ &amp;lt;=&amp;gt;[+ 2OH-][+ 2H+] $\underset{\text{tetrahydroxozincate}}{\ce{[Zn(OH)4]^2-}}$}
+$$&lt;/p>
+&lt;ul>
+&lt;li>Scientific number notation: \(\pu{1.2e3 kJ}\) or \(\pu{1.2E3 kJ}\) \&lt;/li>
+&lt;li>Divisions: \(\pu{123 kJ/mol}\) or \(\pu{123 kJ//mol}\)&lt;/li>
+&lt;/ul>
+&lt;h2 id="绘制图表">绘制图表&lt;/h2>
+&lt;p>​ Mermaid&lt;/p>
+&lt;pre class="mermaid">graph TD
+Start --&amp;gt; Need{&amp;#34;Hugo version &amp;gt;= 0.93.0&amp;#34;}
+Need -- No --&amp;gt; Off[&amp;#34;Set params.mermaid.enable = true&amp;#34;]
+Off --&amp;gt; Author
+Need -- Yes --&amp;gt; Author[Insert mermaid codeblock]&lt;/pre>
+&lt;p>PlantUML&lt;/p>
+&lt;pre tabindex="0">&lt;code class="language-plantuml" data-lang="plantuml">participant participant as Foo
+actor actor as Foo1
+boundary boundary as Foo2
+control control as Foo3
+entity entity as Foo4
+database database as Foo5
+collections collections as Foo6
+queue queue as Foo7
+Foo -&amp;gt; Foo1 : To actor
+Foo -&amp;gt; Foo2 : To boundary
+Foo -&amp;gt; Foo3 : To control
+Foo -&amp;gt; Foo4 : To entity
+Foo -&amp;gt; Foo5 : To database
+Foo -&amp;gt; Foo6 : To collections
+Foo -&amp;gt; Foo7: To queue
+&lt;/code>&lt;/pre>&lt;p>MarkMap&lt;/p>
+&lt;pre tabindex="0">&lt;code class="language-markmap" data-lang="markmap"># markmap
+## Links
+- &amp;lt;https://markmap.js.org/&amp;gt;
+- [GitHub](https://github.com/gera2ld/markmap)
+## Related
+- [coc-markmap](https://github.com/gera2ld/coc-markmap)
+- [gatsby-remark-markmap](https://github.com/gera2ld/gatsby-remark-markmap)
+## Features
+- links
+- **inline** ~~text~~ *styles*
+- multiline
+text
+- `inline code`
+-
+```js
+console.log(&amp;#39;code block&amp;#39;);
+```
+- Katex - $x = {-b \pm \sqrt{b^2-4ac} \over 2a}$
+&lt;/code>&lt;/pre></description></item></channel></rss>

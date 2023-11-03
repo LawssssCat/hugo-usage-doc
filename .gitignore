@@ -1,8 +1,0 @@
-# node.js
-/node_modules
-# /package-lock.json
-
-# hugo
-/.hugo_build.lock
-/resources/
-/public/

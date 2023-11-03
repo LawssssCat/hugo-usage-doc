@@ -1,0 +1,535 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Hugo 使用手册 – 首页（Home）</title><link>/</link><description>Recent content in 首页（Home） on Hugo 使用手册</description><generator>Hugo -- gohugo.io</generator><language>zh-Hans</language><lastBuildDate>Sun, 22 Oct 2023 07:43:49 +0800</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml"/><item><title>Blog: Markdown 效果展示</title><link>/blog/2023/test/</link><pubDate>Sun, 22 Oct 2023 07:43:49 +0800</pubDate><guid>/blog/2023/test/</guid><description>
+&lt;h1 id="h1">H1&lt;/h1>
+&lt;h2 id="h2-标题">H2 标题&lt;/h2>
+&lt;h3 id="h3">H3&lt;/h3>
+&lt;h4 id="h4">H4&lt;/h4>
+&lt;h5 id="h5">H5&lt;/h5>
+&lt;h6 id="h6">H6&lt;/h6>
+&lt;p>####### H7&lt;/p>
+&lt;p>######## H8&lt;/p>
+&lt;h2 id="emoji">emoji&lt;/h2>
+&lt;p>👨🏻‍💻 🕵️‍♂️ 🦌 🐳 🙄 🤹 💲&lt;/p>
+&lt;h2 id="表格">表格&lt;/h2>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>形状&lt;/th>
+&lt;th>边数&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>Triangle&lt;/td>
+&lt;td>3&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Square&lt;/td>
+&lt;td>4&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;table class="td-initial">
+&lt;thead>
+&lt;tr>
+&lt;th>形状&lt;/th>
+&lt;th>边数&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>Triangle&lt;/td>
+&lt;td>3&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Square&lt;/td>
+&lt;td>4&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h2 id="列表">列表&lt;/h2>
+&lt;ul>
+&lt;li>This is an unordered list following a header.&lt;/li>
+&lt;li>This is an unordered list following a header.&lt;/li>
+&lt;li>This is an unordered list following a header.&lt;/li>
+&lt;/ul>
+&lt;ol>
+&lt;li>This is an ordered list following a header.&lt;/li>
+&lt;li>This is an ordered list following a header.&lt;/li>
+&lt;li>This is an ordered list following a header.&lt;/li>
+&lt;/ol>
+&lt;ul>
+&lt;li>&lt;input checked="" disabled="" type="checkbox"> It may seem strange to see a &amp;ldquo;Hello&amp;rdquo; post from a project that&amp;rsquo;s several years old&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> but as Docsy matures as a community-driven project&lt;/li>
+&lt;li>&lt;input checked="" disabled="" type="checkbox"> we thought it was time to (re)introduce ourselves and talk about what&amp;rsquo;s new with your favorite (we hope) Hugo documentation theme!&lt;/li>
+&lt;/ul>
+&lt;h2 id="链接">链接&lt;/h2>
+&lt;p>Docsy now has a Project Steering Committee! The PSC members are &lt;a href="https://github.com/chalin">@chalin&lt;/a>, &lt;a href="https://github.com/LisaFC">@LisaFC&lt;/a>, &lt;a href="https://github.com/geriom">@geriom&lt;/a>, and &lt;a href="https://github.com/emckean">@emckean&lt;/a>. If you&amp;rsquo;re interested in serving on the PSC, open an &lt;a href="https://github.com/google/docsy/issues">issue&lt;/a> and nominate yourself!&lt;/p>
+&lt;h2 id="公式">公式&lt;/h2>
+&lt;h3 id="数学公式">数学公式&lt;/h3>
+&lt;p>KaTeX LaTeX&lt;/p>
+&lt;p>内联公式：&lt;/p>
+&lt;p>When \(a \ne 0\), there are two solutions to \(ax^2 + bx + c= 0\) and they are \(x = {-b \pm \sqrt{b^2-4ac} \over 2a}\).&lt;/p>
+&lt;p>显示模式的公式：&lt;/p>
+&lt;p>The probability of getting \(k\) heads when flipping \(n\) coins is:&lt;/p>
+&lt;div class="math">$$\tag*{(1)} P(E) = {n \choose k} p^k (1-p)^{n-k}$$&lt;/div>&lt;p>$$
+\tag*{(1)} P(E) = {n \choose k} p^k (1-p)^{n-k}
+$$&lt;/p>
+&lt;h3 id="化学方程式和物理单位的显示">化学方程式和物理单位的显示&lt;/h3>
+&lt;p>mhchem&lt;/p>
+&lt;p>&lt;em>Precipitation of barium sulfate:&lt;/em> \(\ce{SO4^2- + Ba^2+ -&amp;gt; BaSO4 v}\)&lt;/p>
+&lt;div class="chem">$$\tag*{(2)} \ce{Zn^2+ &lt;=>[+ 2OH-][+ 2H+] $\underset{\text{amphoteric hydroxide}}{\ce{Zn(OH)2 v}}$ &lt;=>[+ 2OH-][+ 2H+] $\underset{\text{tetrahydroxozincate}}{\ce{[Zn(OH)4]^2-}}$}$$&lt;/div>&lt;p>$$
+\tag*{(2)} \ce{Zn^2+ &amp;lt;=&amp;gt;[+ 2OH-][+ 2H+] $\underset{\text{amphoteric hydroxide}}{\ce{Zn(OH)2 v}}$ &amp;lt;=&amp;gt;[+ 2OH-][+ 2H+] $\underset{\text{tetrahydroxozincate}}{\ce{[Zn(OH)4]^2-}}$}
+$$&lt;/p>
+&lt;ul>
+&lt;li>Scientific number notation: \(\pu{1.2e3 kJ}\) or \(\pu{1.2E3 kJ}\) \&lt;/li>
+&lt;li>Divisions: \(\pu{123 kJ/mol}\) or \(\pu{123 kJ//mol}\)&lt;/li>
+&lt;/ul>
+&lt;h2 id="绘制图表">绘制图表&lt;/h2>
+&lt;p>​ Mermaid&lt;/p>
+&lt;pre class="mermaid">graph TD
+Start --&amp;gt; Need{&amp;#34;Hugo version &amp;gt;= 0.93.0&amp;#34;}
+Need -- No --&amp;gt; Off[&amp;#34;Set params.mermaid.enable = true&amp;#34;]
+Off --&amp;gt; Author
+Need -- Yes --&amp;gt; Author[Insert mermaid codeblock]&lt;/pre>
+&lt;p>PlantUML&lt;/p>
+&lt;pre tabindex="0">&lt;code class="language-plantuml" data-lang="plantuml">participant participant as Foo
+actor actor as Foo1
+boundary boundary as Foo2
+control control as Foo3
+entity entity as Foo4
+database database as Foo5
+collections collections as Foo6
+queue queue as Foo7
+Foo -&amp;gt; Foo1 : To actor
+Foo -&amp;gt; Foo2 : To boundary
+Foo -&amp;gt; Foo3 : To control
+Foo -&amp;gt; Foo4 : To entity
+Foo -&amp;gt; Foo5 : To database
+Foo -&amp;gt; Foo6 : To collections
+Foo -&amp;gt; Foo7: To queue
+&lt;/code>&lt;/pre>&lt;p>MarkMap&lt;/p>
+&lt;pre tabindex="0">&lt;code class="language-markmap" data-lang="markmap"># markmap
+## Links
+- &amp;lt;https://markmap.js.org/&amp;gt;
+- [GitHub](https://github.com/gera2ld/markmap)
+## Related
+- [coc-markmap](https://github.com/gera2ld/coc-markmap)
+- [gatsby-remark-markmap](https://github.com/gera2ld/gatsby-remark-markmap)
+## Features
+- links
+- **inline** ~~text~~ *styles*
+- multiline
+text
+- `inline code`
+-
+```js
+console.log(&amp;#39;code block&amp;#39;);
+```
+- Katex - $x = {-b \pm \sqrt{b^2-4ac} \over 2a}$
+&lt;/code>&lt;/pre></description></item><item><title>Blog: 博客构架工具对比</title><link>/blog/2023/comparing-blog-frameworks/</link><pubDate>Sun, 22 Oct 2023 07:43:49 +0800</pubDate><guid>/blog/2023/comparing-blog-frameworks/</guid><description>
+&lt;ul>
+&lt;li>&lt;input checked="" disabled="" type="checkbox"> dynamic | WordPress - PHP
+&lt;ul>
+&lt;li>问题：
+&lt;ul>
+&lt;li>环境。。。维护！维护！维护！&lt;/li>
+&lt;li>插件。。。维护！维护！维护！&lt;/li>
+&lt;li>安全警告？维护！维护！维护！&lt;/li>
+&lt;li>性能。。。钱！钱！钱！&lt;/li>
+&lt;li>备份！备份！备份！&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;input checked="" disabled="" type="checkbox"> static | hugo - Go
+&lt;ul>
+&lt;li>&lt;a href="https://github.com/gohugoio/hugo">github&lt;/a> | 2023年10月23日 star=69k&lt;/li>
+&lt;li>themes
+&lt;ul>
+&lt;li>&lt;a href="https://themes.gohugo.io/themes/starter-hugo-academic/">academic&lt;/a> - 用途：个人博客&lt;/li>
+&lt;li>&lt;a href="https://github.com/google/docsy">docsy&lt;/a> - 用途：产品文档&lt;/li>
+&lt;li>&lt;a href="https://github.com/bep/docuapi">docuapi&lt;/a> - 用途：API文档&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>问题：
+&lt;ul>
+&lt;li>入门门槛相对高 (主要是概念多且相互关联。好在官方文档足够详细)&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;input checked="" disabled="" type="checkbox"> static | jekyll - Ruby
+&lt;ul>
+&lt;li>&lt;a href="https://github.com/jekyll/jekyll">github&lt;/a> | 2023年10月23日 star=47k&lt;/li>
+&lt;li>问题：
+&lt;ul>
+&lt;li>环境复杂 (主要是不熟悉 Ruby 环境)&lt;/li>
+&lt;li>中文资料不多&lt;/li>
+&lt;li>构建时，插件需要同步更新&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;input checked="" disabled="" type="checkbox"> static | hexo - node.js
+&lt;ul>
+&lt;li>&lt;a href="https://github.com/hexojs/hexo">github&lt;/a> | 2023年10月23日 star=37k&lt;/li>
+&lt;li>问题：
+&lt;ul>
+&lt;li>默认提供的功能相对有限&lt;/li>
+&lt;li>插件需要定期更新维护&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> static | mkdocs - python
+&lt;ul>
+&lt;li>&lt;a href="https://github.com/mkdocs/mkdocs">github&lt;/a> | 2023年10月20日 star=17k&lt;/li>
+&lt;li>themes
+&lt;ul>
+&lt;li>&lt;a href="https://github.com/squidfunk/mkdocs-material">mkdocs-material&lt;/a> | 2023年10月20日 16k star&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> static | mdBook - Rust&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> ??? | Pelican - Python&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> ??? | Rails - ???&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> ??? | Express.js - node.js???&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> ??? | gitbook - ???&lt;/li>
+&lt;/ul></description></item><item><title>Blog: 测试Template中函数/变量的取值</title><link>/blog/2023/test-template/</link><pubDate>Sun, 22 Oct 2023 07:43:49 +0800</pubDate><guid>/blog/2023/test-template/</guid><description>
+&lt;p>This is Content!&lt;/p>
+&lt;p>使用 &lt;code class="code-inline language-go-html-template">&lt;span style="color:#75715e">{{&lt;/span>&lt;span style="color:#a6e22e">.Name&lt;/span>&lt;span style="color:#75715e">}}&lt;/span>&lt;/code> 形式调用。&lt;/p>
+&lt;h2 id="shortcode">Shortcode&lt;/h2>
+&lt;h3 id="this-shortcode">this Shortcode&lt;/h3>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>code&lt;/th>
+&lt;th>value&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>.Name&lt;/td>
+&lt;td>test/test-template&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>.Ordinal&lt;/td>
+&lt;td>0&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>.Page&lt;/td>
+&lt;td>see &amp;ldquo;.Page&amp;rdquo;&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>.Parent&lt;/td>
+&lt;td>&amp;lt;nil&amp;gt;&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>.Position&lt;/td>
+&lt;td>&amp;quot;/home/runner/work/hugo-usage-doc/hugo-usage-doc/content/blog/2023/test-template.md:10:1&amp;quot;&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>.IsNamedParams&lt;/td>
+&lt;td>true &amp;ldquo;This is Params!&amp;rdquo;&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>.Inner&lt;/td>
+&lt;td>&amp;quot; This is Inner! &amp;quot;&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>.Scratch&lt;/td>
+&lt;td>{map[] {{0 0} 0 0 {{} 0} {{} 0}}}&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>.InnerDeindent&lt;/td>
+&lt;td>&amp;quot; This is Inner! &amp;quot;&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h2 id="page">Page&lt;/h2>
+&lt;h3 id="this-page">This Page&lt;/h3>
+&lt;table>
+&lt;header>
+&lt;th>code&lt;/th>
+&lt;th>value&lt;/th>
+&lt;/header>
+&lt;tbody>
+&lt;tr>&lt;td>.Page.AlternativeOutputFormats&lt;/td>&lt;td>[]&lt;/td>&lt;/tr>
+&lt;tr>&lt;td>.Page.Aliases&lt;/td>&lt;td>[]&lt;/td>&lt;/tr>
+&lt;tr>&lt;td>.Page.Ancestors&lt;/td>&lt;td>Pages(2)&lt;/td>&lt;/tr>
+&lt;tr>&lt;td>.Page.BundleType&lt;/td>&lt;td>&lt;/td>&lt;/tr>
+&lt;tr>&lt;td>.Page.Content&lt;/td>&lt;td>""&lt;/td>&lt;/tr>
+&lt;tr>&lt;td>.Page.Data&lt;/td>&lt;td>map[]&lt;/td>&lt;/tr>
+&lt;tr>&lt;td>.Page.Date&lt;/td>&lt;td>2023-10-22 07:43:49 &amp;#43;0800 &amp;#43;0800&lt;/td>&lt;/tr>
+&lt;tr>&lt;td>.Page.Description&lt;/td>&lt;td>"包括：站点变量（.Site）、页面变量（.Page）、简码变量、函数
+"&lt;/td>&lt;/tr>
+&lt;tr>&lt;td>.Page.Draft&lt;/td>&lt;td>`false`&lt;/td>&lt;/tr>
+&lt;tr>&lt;td>.Page.ExpiryDate&lt;/td>&lt;td>0001-01-01 00:00:00 &amp;#43;0000 UTC&lt;/td>&lt;/tr>
+&lt;tr>&lt;td>.Page.File&lt;/td>&lt;td>blog/2023/test-template.md&lt;/td>&lt;/tr>
+&lt;tr>&lt;td>.Page.Fragments&lt;/td>&lt;td>todo&lt;/td>&lt;/tr>
+&lt;tr>&lt;td>.Page.FuzzyWordCount&lt;/td>&lt;td>0&lt;/td>&lt;/tr>
+&lt;tr>&lt;td>.Page.IsHome&lt;/td>&lt;td>false&lt;/td>&lt;/tr>
+&lt;tr>&lt;td>.Page.IsNode&lt;/td>&lt;td>false&lt;/td>&lt;/tr>
+&lt;tr>&lt;td>.Page.IsPage&lt;/td>&lt;td>true&lt;/td>&lt;/tr>
+&lt;tr>&lt;td>.Page.IsSection&lt;/td>&lt;td>false&lt;/td>&lt;/tr>
+&lt;tr>&lt;td>.Page.IsTranslated&lt;/td>&lt;td>false&lt;/td>&lt;/tr>
+&lt;tr>&lt;td>.Page.Keywords&lt;/td>&lt;td>[]&lt;/td>&lt;/tr>
+&lt;tr>&lt;td>.Page.Kind&lt;/td>&lt;td>page&lt;/td>&lt;/tr>
+&lt;tr>&lt;td>.Page.Language&lt;/td>&lt;td>en&lt;/td>&lt;/tr>
+&lt;tr>&lt;td>.Page.Lastmod&lt;/td>&lt;td>2023-11-03 18:32:38 &amp;#43;0800 &amp;#43;0800&lt;/td>&lt;/tr>
+&lt;tr>&lt;td>.Page.LinkTitle&lt;/td>&lt;td>测试Template中函数/变量的取值&lt;/td>&lt;/tr>
+&lt;tr>&lt;td>.Page.Next&lt;/td>&lt;td>Page(/docs/hugo/language.md)&lt;/td>&lt;/tr>
+&lt;tr>&lt;td>.Page.NextInSection&lt;/td>&lt;td>Page(/blog/2023/comparing-blog-frameworks.md)&lt;/td>&lt;/tr>
+&lt;tr>&lt;td>.Page.OutputFormats&lt;/td>&lt;td>[{canonical {html text/html index canonical false true false false true 10} /blog/2023/test-template/ /blog/2023/test-template/}]&lt;/td>&lt;/tr>
+&lt;tr>&lt;td>.Page.Permalink&lt;/td>&lt;td>/blog/2023/test-template/&lt;/td>&lt;/tr>
+&lt;tr>&lt;td>.Page.Plain&lt;/td>&lt;td>&lt;/td>&lt;/tr>
+&lt;tr>&lt;td>.Page.PlainWords&lt;/td>&lt;td>[]&lt;/td>&lt;/tr>
+&lt;tr>&lt;td>.Page.Prev&lt;/td>&lt;td>Page(/blog/2023/readme.md)&lt;/td>&lt;/tr>
+&lt;tr>&lt;td>.Page.PrevInSection&lt;/td>&lt;td>Page(/blog/2023/readme.md)&lt;/td>&lt;/tr>
+&lt;tr>&lt;td>.Page.PublishDate&lt;/td>&lt;td>2023-10-22 07:43:49 &amp;#43;0800 &amp;#43;0800&lt;/td>&lt;/tr>
+&lt;tr>&lt;td>.Page.RawContent&lt;/td>&lt;td>todo
+This is Content!
+&lt;p>{{% test/test-template param_01=&amp;quot;This is Params!&amp;quot; %}} This is Inner! {{% /test/test-template %}}&lt;/p>
+&lt;/td>&lt;/tr>
+&lt;tr>&lt;td>.Page.RenderShortcodes&lt;/td>&lt;td>see "Shortcode"&lt;/td>&lt;/tr>
+&lt;tr>&lt;td>.Page.ReadingTime&lt;/td>&lt;td>0&lt;/td>&lt;/tr>
+&lt;tr>&lt;td>.Page.Resources&lt;/td>&lt;td>[]&lt;/td>&lt;/tr>
+&lt;tr>&lt;td>.Page.Ref&lt;/td>&lt;td>todo&lt;/td>&lt;/tr>
+&lt;tr>&lt;td>.Page.RelRef&lt;/td>&lt;td>todo&lt;/td>&lt;/tr>
+&lt;tr>&lt;td>.Page.RelPermalink&lt;/td>&lt;td>/blog/2023/test-template/&lt;/td>&lt;/tr>
+&lt;tr>&lt;td>.Page.Site&lt;/td>&lt;td>see "Site"&lt;/td>&lt;/tr>
+&lt;tr>&lt;td>.Page.Sites&lt;/td>&lt;td>todo&lt;/td>&lt;/tr>
+&lt;tr>&lt;td>.Page.Summary&lt;/td>&lt;td>&lt;/td>&lt;/tr>
+&lt;tr>&lt;td>.Page.TableOfContents&lt;/td>&lt;td>&lt;nav id="TableOfContents">
+&lt;ul>
+&lt;li>&lt;a href="#shortcode">Shortcode&lt;/a>
+&lt;ul>
+&lt;li>&lt;a href="#this-shortcode">this Shortcode&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;a href="#page">Page&lt;/a>
+&lt;ul>
+&lt;li>&lt;a href="#this-page">This Page&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#home-page">&amp;ldquo;Home&amp;rdquo; Page&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#section-page">Section Page&lt;/a>
+&lt;ul>
+&lt;li>&lt;a href="#-"># &amp;quot;&amp;quot;&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#-blog"># &amp;ldquo;Blog&amp;rdquo;&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#-community"># &amp;ldquo;Community&amp;rdquo;&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;a href="#site">Site&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/nav>&lt;/td>&lt;/tr>
+&lt;tr>&lt;td>.Page.Title&lt;/td>&lt;td>测试Template中函数/变量的取值&lt;/td>&lt;/tr>
+&lt;tr>&lt;td>.Page.Translations&lt;/td>&lt;td>Pages(0)&lt;/td>&lt;/tr>
+&lt;tr>&lt;td>.Page.TranslationKey&lt;/td>&lt;td>page/blog/2023/test-template&lt;/td>&lt;/tr>
+&lt;tr>&lt;td>.Page.Truncated&lt;/td>&lt;td>false&lt;/td>&lt;/tr>
+&lt;tr>&lt;td>.Page.Type&lt;/td>&lt;td>blog&lt;/td>&lt;/tr>
+&lt;tr>&lt;td>.Page.Weight&lt;/td>&lt;td>0&lt;/td>&lt;/tr>
+&lt;tr>&lt;td>.Page.WordCount&lt;/td>&lt;td>0&lt;/td>&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h3 id="home-page">&amp;ldquo;Home&amp;rdquo; Page&lt;/h3>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>code&lt;/th>
+&lt;th>value&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>Title&lt;/td>
+&lt;td>首页（Home）&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Kind&lt;/td>
+&lt;td>home&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Type&lt;/td>
+&lt;td>page&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h3 id="section-page">Section Page&lt;/h3>
+&lt;h4 id="-"># &amp;quot;&amp;quot;&lt;/h4>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>code&lt;/th>
+&lt;th>value&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>Title&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Kind&lt;/td>
+&lt;td>section&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Type&lt;/td>
+&lt;td>docs&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h4 id="-blog"># &amp;ldquo;Blog&amp;rdquo;&lt;/h4>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>code&lt;/th>
+&lt;th>value&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>Title&lt;/td>
+&lt;td>Blog&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Kind&lt;/td>
+&lt;td>section&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Type&lt;/td>
+&lt;td>blog&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h4 id="-community"># &amp;ldquo;Community&amp;rdquo;&lt;/h4>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>code&lt;/th>
+&lt;th>value&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>Title&lt;/td>
+&lt;td>Community&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Kind&lt;/td>
+&lt;td>section&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Type&lt;/td>
+&lt;td>community&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h2 id="site">Site&lt;/h2>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>code&lt;/th>
+&lt;th>value&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>.Site.AllPages&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>.Site.BaseURL&lt;/td>
+&lt;td>/&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>.Site.BuildDrafts&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>.Site.Copyright&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>.Site.Data&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>.Site.Home&lt;/td>
+&lt;td>Page(/_index.md)&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>.Site.IsMultiLingual&lt;/td>
+&lt;td>false&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>.Site.Language.Lang&lt;/td>
+&lt;td>en&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>.Site.Language.LanguageName&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>.Site.Language.Weight&lt;/td>
+&lt;td>0&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>.Site.Language&lt;/td>
+&lt;td>en&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>.Site.LanguageCode&lt;/td>
+&lt;td>zh-Hans&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>.Site.LanguagePrefix&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>.Site.Languages&lt;/td>
+&lt;td>[en]&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>.Site.LastChange&lt;/td>
+&lt;td>2023-11-03 18:32:38 +0800 +0800&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>.Site.Menus&lt;/td>
+&lt;td>map[main:[0xc0001e9420 0xc0001e9340 0xc0001e82a0]]&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>.Site.Pages&lt;/td>
+&lt;td>Pages(35)&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>.Site.RegularPages&lt;/td>
+&lt;td>Pages(19)&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>.Site.Sections&lt;/td>
+&lt;td>Pages(3)&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>.Site.Taxonomies&lt;/td>
+&lt;td>TaxonomyList(2)&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>.Site.Title&lt;/td>
+&lt;td>Hugo 使用手册&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table></description></item><item><title>Blog: 项目说明</title><link>/blog/2023/readme/</link><pubDate>Sun, 22 Oct 2023 07:43:49 +0800</pubDate><guid>/blog/2023/readme/</guid><description>
+&lt;h2 id="getting-started">Getting Started&lt;/h2>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-0-1">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-0-1">1&lt;/a>&lt;/span>&lt;span>npm install
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-1-1">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-1-1">1&lt;/a>&lt;/span>&lt;span>npm run prepare
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-1-2">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-1-2">2&lt;/a>&lt;/span>&lt;span>npm run server
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-1-3">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-1-3">3&lt;/a>&lt;/span>&lt;span>npm run build
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-1-4">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-1-4">4&lt;/a>&lt;/span>&lt;span>npm run clean
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-1-5">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-1-5">5&lt;/a>&lt;/span>&lt;span>npm run build:production
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="contribution-guidelines">Contribution Guidelines&lt;/h2>
+&lt;p>markdown style&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-2-1">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-2-1">1&lt;/a>&lt;/span>&lt;span>&lt;span style="color:#75715e"># vscode&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-2-2">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-2-2">2&lt;/a>&lt;/span>&lt;span>code --install-extension DavidAnson.vscode-markdownlint
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div></description></item></channel></rss>

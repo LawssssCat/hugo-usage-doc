@@ -1,4 +1,0 @@
-{{- $yid := .Get "id" -}}
-{{- $ytitle := .Get "title" | default "YouTube Video" -}}
-{{- $ywidth := .Get "width" | default "544px" -}}
-<iframe src="https://www.youtube.com/embed/{{ $yid }}" allowfullscreen="" title="{{ $ytitle }}" style="top: 0px; left: 0px; width: {{ $ywidth }}; height: 306px; border: 0px;"></iframe>
