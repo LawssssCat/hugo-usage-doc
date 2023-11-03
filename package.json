@@ -3,12 +3,13 @@
   "scripts": {
     "_hugo": "hugo --cleanDestinationDir",
     "_hugo:dev": "npm run _hugo -- -e dev --buildDrafts --buildExpired --buildFuture",
+    "_hugo:pro": "npm run _hugo -- -e production",
     "_prepare:docsy": "cd themes/docsy && npm install",
     "get:submodule": "git submodule update --init --depth 1",
     "prepare": "npm run get:submodule && npm run _prepare:docsy",
     "server": "npm run _hugo:dev -- server",
     "serve": "npm run server",
-    "build:production": "npm run _hugo -- --minify",
+    "build:production": "npm run _hugo:pro -- --minify",
     "build": "npm run _hugo:dev",
     "clean": "rm -Rf public/* resources"
   },

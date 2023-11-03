@@ -77,7 +77,7 @@ Hugo 使用 Go 中 [html/template 库](https://pkg.go.dev/html/template) 作为�
 + <https://gohugo.io/variables/> (变量列表)
 + <https://gohugo.io/functions/> (函数列表)
 
-本站示例： {{% ref "test-template" %}}
+本站示例： [测试模板中函数和变量的取值]({{< ref "test-template" >}})
 
 视频教程：
 
