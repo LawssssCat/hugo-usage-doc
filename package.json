@@ -6,7 +6,7 @@
     "_hugo:pro": "npm run _hugo -- -e production",
     "_prepare:docsy": "cd themes/docsy && npm install",
     "get:submodule": "git submodule update --init --depth 1",
-    "prepare": "npm run get:submodule && npm run _prepare:docsy",
+    "prepare": "npm run get:submodule && npm run _prepare:docsy ",
     "server": "npm run _hugo:dev -- server",
     "serve": "npm run server",
     "build:production": "npm run _hugo:pro -- --minify",
@@ -14,8 +14,9 @@
     "clean": "rm -Rf public/* resources"
   },
   "devDependencies": {
+    "autoprefixer": "^10.4.8",
     "hugo-extended": "0.119.0",
-    "autoprefixer": "^10.4.16",
-    "postcss-cli": "^10.1.0"
+    "postcss": "^8.4.16",
+    "postcss-cli": "^10.0.0"
   }
 }

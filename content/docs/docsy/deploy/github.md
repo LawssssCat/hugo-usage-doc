@@ -6,6 +6,8 @@ description: |
 weight: 80
 ---
 
+核心项目： <https://github.com/peaceiris/actions-hugo#readme>
+
 本项目为例： `.github/workflows/gh-pages.yaml`
 
 {{< readfile file="/.github/workflows/gh-pages.yaml" code="true" lang="yaml" >}}

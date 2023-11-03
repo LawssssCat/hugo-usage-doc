@@ -1,6 +1,6 @@
 # node.js
 /node_modules
-/package-lock.json
+# /package-lock.json
 
 # hugo
 /.hugo_build.lock
