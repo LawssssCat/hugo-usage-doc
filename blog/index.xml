@@ -1,4 +1,4 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Hugo 使用手册 – Blog</title><link>/blog/</link><description>Recent content in Blog on Hugo 使用手册</description><generator>Hugo -- gohugo.io</generator><language>zh-Hans</language><atom:link href="/blog/index.xml" rel="self" type="application/rss+xml"/><item><title>Blog: Markdown 效果展示</title><link>/blog/2023/test/</link><pubDate>Sun, 22 Oct 2023 07:43:49 +0800</pubDate><guid>/blog/2023/test/</guid><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Hugo 使用手册 – Blog</title><link>https://lawsssscat.github.io/hugo-usage-doc/blog/</link><description>Recent content in Blog on Hugo 使用手册</description><generator>Hugo -- gohugo.io</generator><language>zh-Hans</language><atom:link href="https://lawsssscat.github.io/hugo-usage-doc/blog/index.xml" rel="self" type="application/rss+xml"/><item><title>Blog: Markdown 效果展示</title><link>https://lawsssscat.github.io/hugo-usage-doc/blog/2023/test/</link><pubDate>Sun, 22 Oct 2023 07:43:49 +0800</pubDate><guid>https://lawsssscat.github.io/hugo-usage-doc/blog/2023/test/</guid><description>
 &lt;h1 id="h1">H1&lt;/h1>
 &lt;h2 id="h2-标题">H2 标题&lt;/h2>
 &lt;h3 id="h3">H3&lt;/h3>
@@ -126,7 +126,7 @@ text
 console.log(&amp;#39;code block&amp;#39;);
 ```
 - Katex - $x = {-b \pm \sqrt{b^2-4ac} \over 2a}$
-&lt;/code>&lt;/pre></description></item><item><title>Blog: 博客构架工具对比</title><link>/blog/2023/comparing-blog-frameworks/</link><pubDate>Sun, 22 Oct 2023 07:43:49 +0800</pubDate><guid>/blog/2023/comparing-blog-frameworks/</guid><description>
+&lt;/code>&lt;/pre></description></item><item><title>Blog: 博客构架工具对比</title><link>https://lawsssscat.github.io/hugo-usage-doc/blog/2023/comparing-blog-frameworks/</link><pubDate>Sun, 22 Oct 2023 07:43:49 +0800</pubDate><guid>https://lawsssscat.github.io/hugo-usage-doc/blog/2023/comparing-blog-frameworks/</guid><description>
 &lt;ul>
 &lt;li>&lt;input checked="" disabled="" type="checkbox"> dynamic | WordPress - PHP
 &lt;ul>
@@ -196,7 +196,7 @@ console.log(&amp;#39;code block&amp;#39;);
 &lt;li>&lt;input disabled="" type="checkbox"> ??? | Rails - ???&lt;/li>
 &lt;li>&lt;input disabled="" type="checkbox"> ??? | Express.js - node.js???&lt;/li>
 &lt;li>&lt;input disabled="" type="checkbox"> ??? | gitbook - ???&lt;/li>
-&lt;/ul></description></item><item><title>Blog: 测试Template中函数/变量的取值</title><link>/blog/2023/test-template/</link><pubDate>Sun, 22 Oct 2023 07:43:49 +0800</pubDate><guid>/blog/2023/test-template/</guid><description>
+&lt;/ul></description></item><item><title>Blog: 测试Template中函数/变量的取值</title><link>https://lawsssscat.github.io/hugo-usage-doc/blog/2023/test-template/</link><pubDate>Sun, 22 Oct 2023 07:43:49 +0800</pubDate><guid>https://lawsssscat.github.io/hugo-usage-doc/blog/2023/test-template/</guid><description>
 &lt;p>This is Content!&lt;/p>
 &lt;p>使用 &lt;code class="code-inline language-go-html-template">&lt;span style="color:#75715e">{{&lt;/span>&lt;span style="color:#a6e22e">.Name&lt;/span>&lt;span style="color:#75715e">}}&lt;/span>&lt;/code> 形式调用。&lt;/p>
 &lt;h2 id="shortcode">Shortcode&lt;/h2>
@@ -281,8 +281,8 @@ console.log(&amp;#39;code block&amp;#39;);
 &lt;tr>&lt;td>.Page.LinkTitle&lt;/td>&lt;td>测试Template中函数/变量的取值&lt;/td>&lt;/tr>
 &lt;tr>&lt;td>.Page.Next&lt;/td>&lt;td>Page(/docs/hugo/language.md)&lt;/td>&lt;/tr>
 &lt;tr>&lt;td>.Page.NextInSection&lt;/td>&lt;td>Page(/blog/2023/comparing-blog-frameworks.md)&lt;/td>&lt;/tr>
-&lt;tr>&lt;td>.Page.OutputFormats&lt;/td>&lt;td>[{canonical {html text/html index canonical false true false false true 10} /blog/2023/test-template/ /blog/2023/test-template/}]&lt;/td>&lt;/tr>
-&lt;tr>&lt;td>.Page.Permalink&lt;/td>&lt;td>/blog/2023/test-template/&lt;/td>&lt;/tr>
+&lt;tr>&lt;td>.Page.OutputFormats&lt;/td>&lt;td>[{canonical {html text/html index canonical false true false false true 10} /hugo-usage-doc/blog/2023/test-template/ https://lawsssscat.github.io/hugo-usage-doc/blog/2023/test-template/}]&lt;/td>&lt;/tr>
+&lt;tr>&lt;td>.Page.Permalink&lt;/td>&lt;td>https://lawsssscat.github.io/hugo-usage-doc/blog/2023/test-template/&lt;/td>&lt;/tr>
 &lt;tr>&lt;td>.Page.Plain&lt;/td>&lt;td>&lt;/td>&lt;/tr>
 &lt;tr>&lt;td>.Page.PlainWords&lt;/td>&lt;td>[]&lt;/td>&lt;/tr>
 &lt;tr>&lt;td>.Page.Prev&lt;/td>&lt;td>Page(/blog/2023/readme.md)&lt;/td>&lt;/tr>
@@ -297,7 +297,7 @@ This is Content!
 &lt;tr>&lt;td>.Page.Resources&lt;/td>&lt;td>[]&lt;/td>&lt;/tr>
 &lt;tr>&lt;td>.Page.Ref&lt;/td>&lt;td>todo&lt;/td>&lt;/tr>
 &lt;tr>&lt;td>.Page.RelRef&lt;/td>&lt;td>todo&lt;/td>&lt;/tr>
-&lt;tr>&lt;td>.Page.RelPermalink&lt;/td>&lt;td>/blog/2023/test-template/&lt;/td>&lt;/tr>
+&lt;tr>&lt;td>.Page.RelPermalink&lt;/td>&lt;td>/hugo-usage-doc/blog/2023/test-template/&lt;/td>&lt;/tr>
 &lt;tr>&lt;td>.Page.Site&lt;/td>&lt;td>see "Site"&lt;/td>&lt;/tr>
 &lt;tr>&lt;td>.Page.Sites&lt;/td>&lt;td>todo&lt;/td>&lt;/tr>
 &lt;tr>&lt;td>.Page.Summary&lt;/td>&lt;td>&lt;/td>&lt;/tr>
@@ -441,7 +441,7 @@ This is Content!
 &lt;/tr>
 &lt;tr>
 &lt;td>.Site.BaseURL&lt;/td>
-&lt;td>/&lt;/td>
+&lt;td>&lt;a href="https://lawsssscat.github.io/hugo-usage-doc/">https://lawsssscat.github.io/hugo-usage-doc/&lt;/a>&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>.Site.BuildDrafts&lt;/td>
@@ -497,7 +497,7 @@ This is Content!
 &lt;/tr>
 &lt;tr>
 &lt;td>.Site.Menus&lt;/td>
-&lt;td>map[main:[0xc0001e9420 0xc0001e9340 0xc0001e82a0]]&lt;/td>
+&lt;td>map[main:[0xc0008afdc0 0xc0008afce0 0xc0008afc00]]&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>.Site.Pages&lt;/td>
@@ -520,7 +520,7 @@ This is Content!
 &lt;td>Hugo 使用手册&lt;/td>
 &lt;/tr>
 &lt;/tbody>
-&lt;/table></description></item><item><title>Blog: 项目说明</title><link>/blog/2023/readme/</link><pubDate>Sun, 22 Oct 2023 07:43:49 +0800</pubDate><guid>/blog/2023/readme/</guid><description>
+&lt;/table></description></item><item><title>Blog: 项目说明</title><link>https://lawsssscat.github.io/hugo-usage-doc/blog/2023/readme/</link><pubDate>Sun, 22 Oct 2023 07:43:49 +0800</pubDate><guid>https://lawsssscat.github.io/hugo-usage-doc/blog/2023/readme/</guid><description>
 &lt;h2 id="getting-started">Getting Started&lt;/h2>
 &lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-0-1">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-0-1">1&lt;/a>&lt;/span>&lt;span>npm install
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-1-1">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-1-1">1&lt;/a>&lt;/span>&lt;span>npm run prepare

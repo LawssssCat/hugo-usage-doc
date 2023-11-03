@@ -1,4 +1,4 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Hugo 使用手册 – 主题 | Docsy 常用记录</title><link>/docs/docsy/</link><description>Recent content in 主题 | Docsy 常用记录 on Hugo 使用手册</description><generator>Hugo -- gohugo.io</generator><language>zh-Hans</language><lastBuildDate>Sun, 22 Oct 2023 07:43:49 +0800</lastBuildDate><atom:link href="/docs/docsy/index.xml" rel="self" type="application/rss+xml"/><item><title>Docs: 外观（Look）</title><link>/docs/docsy/look/</link><pubDate>Sun, 22 Oct 2023 07:43:49 +0800</pubDate><guid>/docs/docsy/look/</guid><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Hugo 使用手册 – 主题 | Docsy 常用记录</title><link>https://lawsssscat.github.io/hugo-usage-doc/docs/docsy/</link><description>Recent content in 主题 | Docsy 常用记录 on Hugo 使用手册</description><generator>Hugo -- gohugo.io</generator><language>zh-Hans</language><lastBuildDate>Sun, 22 Oct 2023 07:43:49 +0800</lastBuildDate><atom:link href="https://lawsssscat.github.io/hugo-usage-doc/docs/docsy/index.xml" rel="self" type="application/rss+xml"/><item><title>Docs: 外观（Look）</title><link>https://lawsssscat.github.io/hugo-usage-doc/docs/docsy/look/</link><pubDate>Sun, 22 Oct 2023 07:43:49 +0800</pubDate><guid>https://lawsssscat.github.io/hugo-usage-doc/docs/docsy/look/</guid><description>
 &lt;h2 id="样式-style">样式 style&lt;/h2>
 &lt;ul>
 &lt;li>&lt;code>assets/scss/_variables_project.scss&lt;/code> 可以覆盖主题原有的变量值（在 &lt;code>assets/scss/_variables.scss&lt;/code> 找到主题原有的变量值）和 &lt;a href="https://getbootstrap.com/docs/4.1/getting-started/theming/#variable-defaults">Bootstrap 变量默认值&lt;/a>。&lt;/li>
@@ -31,7 +31,7 @@
 &lt;p>Tips： 通过 &lt;a href="http://cthedot.de/icongen">http://cthedot.de/icongen&lt;/a>（允许您从单个图像创建各种图标大小和选项）或 &lt;a href="https://favicon.io">https://favicon.io&lt;/a> 可以快速创建一组网站图标。&lt;/p>
 &lt;/blockquote>
 &lt;h2 id="图标样式-icon">图标样式 icon&lt;/h2>
-&lt;p>&lt;a href="https://fontawesome.com/icons?d=gallery&amp;amp;m=free">https://fontawesome.com/icons?d=gallery&amp;amp;m=free&lt;/a>&lt;/p></description></item><item><title>Docs: 封面（Cover）</title><link>/docs/docsy/cover/</link><pubDate>Sun, 22 Oct 2023 07:43:49 +0800</pubDate><guid>/docs/docsy/cover/</guid><description>
+&lt;p>&lt;a href="https://fontawesome.com/icons?d=gallery&amp;amp;m=free">https://fontawesome.com/icons?d=gallery&amp;amp;m=free&lt;/a>&lt;/p></description></item><item><title>Docs: 封面（Cover）</title><link>https://lawsssscat.github.io/hugo-usage-doc/docs/docsy/cover/</link><pubDate>Sun, 22 Oct 2023 07:43:49 +0800</pubDate><guid>https://lawsssscat.github.io/hugo-usage-doc/docs/docsy/cover/</guid><description>
 &lt;p>这些页面通常作为独特的封面页：&lt;/p>
 &lt;ul>
 &lt;li>&lt;code>content/_index.md&lt;/code> —— 首页&lt;/li>
@@ -70,7 +70,7 @@
 &lt;li>&lt;code>logo_anchor&lt;/code>&lt;/li>
 &lt;/ul>
 &lt;/li>
-&lt;/ol></description></item><item><title>Docs: 布局（Layout）</title><link>/docs/docsy/layout/</link><pubDate>Sun, 22 Oct 2023 07:43:49 +0800</pubDate><guid>/docs/docsy/layout/</guid><description>
+&lt;/ol></description></item><item><title>Docs: 布局（Layout）</title><link>https://lawsssscat.github.io/hugo-usage-doc/docs/docsy/layout/</link><pubDate>Sun, 22 Oct 2023 07:43:49 +0800</pubDate><guid>https://lawsssscat.github.io/hugo-usage-doc/docs/docsy/layout/</guid><description>
 &lt;p>主题提供了以下几种内容类型（ContentType）：&lt;/p>
 &lt;ul>
 &lt;li>&lt;code>_default&lt;/code> —— 默认。如主页、关于页。&lt;/li>
@@ -79,7 +79,7 @@
 &lt;li>&lt;code>community&lt;/code> —— 社区&lt;/li>
 &lt;li>&lt;code>swagger&lt;/code> —— API文档，示例：&lt;a href="https://github.com/cchesser/docs-as-code/">https://github.com/cchesser/docs-as-code/&lt;/a>&lt;/li>
 &lt;/ul>
-&lt;p>用法参考： &lt;a href="/docs/hugo/layout-usage/">Hugo 的布局（Layout）概念&lt;/a>&lt;/p></description></item><item><title>Docs: 简码（Shortcode）</title><link>/docs/docsy/shortcode/</link><pubDate>Sun, 22 Oct 2023 07:43:49 +0800</pubDate><guid>/docs/docsy/shortcode/</guid><description>
+&lt;p>用法参考： &lt;a href="https://lawsssscat.github.io/hugo-usage-doc/docs/hugo/layout-usage/">Hugo 的布局（Layout）概念&lt;/a>&lt;/p></description></item><item><title>Docs: 简码（Shortcode）</title><link>https://lawsssscat.github.io/hugo-usage-doc/docs/docsy/shortcode/</link><pubDate>Sun, 22 Oct 2023 07:43:49 +0800</pubDate><guid>https://lawsssscat.github.io/hugo-usage-doc/docs/docsy/shortcode/</guid><description>
 &lt;p>官方文档： &lt;a href="https://www.docsy.dev/docs/adding-content/shortcodes/">https://www.docsy.dev/docs/adding-content/shortcodes/&lt;/a> (可用简码列表)&lt;/p>
-&lt;p>使用参考： &lt;a href="/docs/hugo/content-management/shortcode/">Hugo 简码使用&lt;/a>&lt;/p></description></item><item><title>Docs: 搜索（Search）</title><link>/docs/docsy/search/</link><pubDate>Sun, 22 Oct 2023 07:43:49 +0800</pubDate><guid>/docs/docsy/search/</guid><description>
-&lt;p>官方文档： &lt;a href="https://www.docsy.dev/docs/adding-content/search/">https://www.docsy.dev/docs/adding-content/search/&lt;/a>&lt;/p></description></item><item><title>Docs: 部署（Deploy）</title><link>/docs/docsy/deploy/</link><pubDate>Sun, 22 Oct 2023 07:43:49 +0800</pubDate><guid>/docs/docsy/deploy/</guid><description/></item></channel></rss>
+&lt;p>使用参考： &lt;a href="https://lawsssscat.github.io/hugo-usage-doc/docs/hugo/content-management/shortcode/">Hugo 简码使用&lt;/a>&lt;/p></description></item><item><title>Docs: 搜索（Search）</title><link>https://lawsssscat.github.io/hugo-usage-doc/docs/docsy/search/</link><pubDate>Sun, 22 Oct 2023 07:43:49 +0800</pubDate><guid>https://lawsssscat.github.io/hugo-usage-doc/docs/docsy/search/</guid><description>
+&lt;p>官方文档： &lt;a href="https://www.docsy.dev/docs/adding-content/search/">https://www.docsy.dev/docs/adding-content/search/&lt;/a>&lt;/p></description></item><item><title>Docs: 部署（Deploy）</title><link>https://lawsssscat.github.io/hugo-usage-doc/docs/docsy/deploy/</link><pubDate>Sun, 22 Oct 2023 07:43:49 +0800</pubDate><guid>https://lawsssscat.github.io/hugo-usage-doc/docs/docsy/deploy/</guid><description/></item></channel></rss>

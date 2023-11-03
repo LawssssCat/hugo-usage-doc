@@ -1,4 +1,4 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Hugo 使用手册 – Hugo 常用记录</title><link>/docs/hugo/</link><description>Recent content in Hugo 常用记录 on Hugo 使用手册</description><generator>Hugo -- gohugo.io</generator><language>zh-Hans</language><lastBuildDate>Sun, 22 Oct 2023 07:43:49 +0800</lastBuildDate><atom:link href="/docs/hugo/index.xml" rel="self" type="application/rss+xml"/><item><title>Docs: 命令行（Command）</title><link>/docs/hugo/command/</link><pubDate>Sun, 22 Oct 2023 07:43:49 +0800</pubDate><guid>/docs/hugo/command/</guid><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Hugo 使用手册 – Hugo 常用记录</title><link>https://lawsssscat.github.io/hugo-usage-doc/docs/hugo/</link><description>Recent content in Hugo 常用记录 on Hugo 使用手册</description><generator>Hugo -- gohugo.io</generator><language>zh-Hans</language><lastBuildDate>Sun, 22 Oct 2023 07:43:49 +0800</lastBuildDate><atom:link href="https://lawsssscat.github.io/hugo-usage-doc/docs/hugo/index.xml" rel="self" type="application/rss+xml"/><item><title>Docs: 命令行（Command）</title><link>https://lawsssscat.github.io/hugo-usage-doc/docs/hugo/command/</link><pubDate>Sun, 22 Oct 2023 07:43:49 +0800</pubDate><guid>https://lawsssscat.github.io/hugo-usage-doc/docs/hugo/command/</guid><description>
 &lt;p>命令行顾名思义，这里不赘述其具体用法 (具体用法参考&lt;code>hugo -h&lt;/code>或&lt;a href="https://gohugo.io/commands/">官方文档&lt;/a>)；这里仅做分类，作用快速查找。&lt;/p>
 &lt;p>帮助&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-0-1">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-0-1">1&lt;/a>&lt;/span>&lt;span>hugo compeletion &lt;span style="color:#f92672">[&lt;/span>bash/fish/powershell/zsh&lt;span style="color:#f92672">]&lt;/span>
@@ -25,7 +25,7 @@
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>发布 🔥&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-6-1">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-6-1">1&lt;/a>&lt;/span>&lt;span>hugo --cleanDestinationDir --minify
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-6-2">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-6-2">2&lt;/a>&lt;/span>&lt;span>hugo deploy
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div></description></item><item><title>Docs: 目录结构（Directory-structure）🔥</title><link>/docs/hugo/directory-structure/</link><pubDate>Sun, 22 Oct 2023 07:43:49 +0800</pubDate><guid>/docs/hugo/directory-structure/</guid><description>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div></description></item><item><title>Docs: 目录结构（Directory-structure）🔥</title><link>https://lawsssscat.github.io/hugo-usage-doc/docs/hugo/directory-structure/</link><pubDate>Sun, 22 Oct 2023 07:43:49 +0800</pubDate><guid>https://lawsssscat.github.io/hugo-usage-doc/docs/hugo/directory-structure/</guid><description>
 &lt;p>官方文档： &lt;a href="https://gohugo.io/getting-started/directory-structure/">https://gohugo.io/getting-started/directory-structure/&lt;/a>&lt;/p>
 &lt;iframe src="https://www.youtube.com/embed/sB0HLHjgQ7E" allowfullscreen="" title="Creating a New Site / Directory Structure | Hugo - Static Site Generator | Tutorial 4" style="top: 0px; left: 0px; width: 544px; height: 306px; border: 0px;">&lt;/iframe>
 &lt;p>项目目录结构：&lt;/p>
@@ -202,7 +202,7 @@ id="tabs-01-03" role="tabpanel" aria-labelled-by="tabs-01-03-tab" tabindex="1">
 &lt;/ul>
 &lt;/blockquote>
 &lt;h2 id="layouts--页面布局">layouts —— 页面布局&lt;/h2>
-&lt;p>转跳： &lt;a href="/docs/docsy/layout/">页面布局&lt;/a>&lt;/p>
+&lt;p>转跳： &lt;a href="https://lawsssscat.github.io/hugo-usage-doc/docs/docsy/layout/">页面布局&lt;/a>&lt;/p>
 &lt;h2 id="themes--主题">themes —— 主题&lt;/h2>
 &lt;p>一般将主题放进去后就不用管了。&lt;/p>
 &lt;blockquote>
@@ -223,7 +223,7 @@ id="tabs-01-03" role="tabpanel" aria-labelled-by="tabs-01-03-tab" tabindex="1">
 ├── header.html
 └── head.html
 &lt;/code>&lt;/pre>&lt;h2 id="content--内容管理">content —— 内容管理&lt;/h2>
-&lt;p>转跳： &lt;a href="/docs/hugo/content-management/">内容管理&lt;/a>&lt;/p>
+&lt;p>转跳： &lt;a href="https://lawsssscat.github.io/hugo-usage-doc/docs/hugo/content-management/">内容管理&lt;/a>&lt;/p>
 &lt;h2 id="data--站点数据">data —— 站点数据&lt;/h2>
 &lt;p>官方文档：&lt;/p>
 &lt;ul>
@@ -332,7 +332,7 @@ id="tabs-04-03" role="tabpanel" aria-labelled-by="tabs-04-03-tab" tabindex="4">
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-4-13">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-4-13">13&lt;/a>&lt;/span>&lt;span>├── index.html
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-4-14">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-4-14">14&lt;/a>&lt;/span>&lt;span>├── index.xml &amp;lt;-- RSS feed &lt;span style="color:#66d9ef">for&lt;/span> the site
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-4-15">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-4-15">15&lt;/a>&lt;/span>&lt;span>└── sitemap.xml
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div></description></item><item><title>Docs: 标记解析（Markup）</title><link>/docs/hugo/markup/</link><pubDate>Sun, 22 Oct 2023 07:43:49 +0800</pubDate><guid>/docs/hugo/markup/</guid><description>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div></description></item><item><title>Docs: 标记解析（Markup）</title><link>https://lawsssscat.github.io/hugo-usage-doc/docs/hugo/markup/</link><pubDate>Sun, 22 Oct 2023 07:43:49 +0800</pubDate><guid>https://lawsssscat.github.io/hugo-usage-doc/docs/hugo/markup/</guid><description>
 &lt;p>官方文档： &lt;a href="https://gohugo.io/getting-started/configuration-markup/">https://gohugo.io/getting-started/configuration-markup/&lt;/a> (配置看这里)&lt;/p>
 &lt;p>所谓 &amp;ldquo;标记解析&amp;rdquo; 就是将 &lt;code>.md&lt;/code> 文件中的各种特殊字符、特殊格式转换为 &lt;code>.html&lt;/code> 文件形式。可以理解为渲染 &lt;code>.md&lt;/code> 文件。&lt;/p>
 &lt;h2 id="goldmark--解析-markdown-标记">Goldmark —— 解析 markdown 标记&lt;/h2>
@@ -389,7 +389,7 @@ id="tabs-04-03" role="tabpanel" aria-labelled-by="tabs-04-03-tab" tabindex="4">
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-4-2">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-4-2">2&lt;/a>&lt;/span>&lt;span> &lt;span style="color:#f92672">ordered&lt;/span>: &lt;span style="color:#66d9ef">false&lt;/span> &lt;span style="color:#75715e"># 是否添加序号，默认false&lt;/span>
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-4-3">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-4-3">3&lt;/a>&lt;/span>&lt;span> &lt;span style="color:#f92672">startLevel&lt;/span>: &lt;span style="color:#ae81ff">2&lt;/span> &lt;span style="color:#75715e"># 开始级别，默认1&lt;/span>
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-4-4">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-4-4">4&lt;/a>&lt;/span>&lt;span> &lt;span style="color:#f92672">endLevel&lt;/span>: &lt;span style="color:#ae81ff">4&lt;/span> &lt;span style="color:#75715e"># 结束级别，默认3&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div></description></item><item><title>Docs: 布局使用（Layout-usage）🔥</title><link>/docs/hugo/layout-usage/</link><pubDate>Sun, 22 Oct 2023 07:43:49 +0800</pubDate><guid>/docs/hugo/layout-usage/</guid><description>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div></description></item><item><title>Docs: 布局使用（Layout-usage）🔥</title><link>https://lawsssscat.github.io/hugo-usage-doc/docs/hugo/layout-usage/</link><pubDate>Sun, 22 Oct 2023 07:43:49 +0800</pubDate><guid>https://lawsssscat.github.io/hugo-usage-doc/docs/hugo/layout-usage/</guid><description>
 &lt;h2 id="概念---使用布局的好处">概念 - 使用布局的好处&lt;/h2>
 &lt;p>在一个站点中，同一类页面（&lt;code>Page&lt;/code>）他们的样式一般是一样的。通过将共同的样式代码抽离为一个布局文件（&lt;code>Layout&lt;/code>）可以大大避免重复编码，简化编写页面的工作量。同时，也可以统一管理同一种页面的页面布局，使统一站点风格变得可能。&lt;/p>
 &lt;p>进一步考虑，将页面编写和布局编写的工作分开，可以将责任分割，进一步提高站点的可管理性：&lt;/p>
@@ -400,7 +400,7 @@ id="tabs-04-03" role="tabpanel" aria-labelled-by="tabs-04-03-tab" tabindex="4">
 &lt;h2 id="概念---页面page和页面布局layout的对应关系">概念 - 页面（Page）和页面布局（Layout）的对应关系&lt;/h2>
 &lt;p>一般情况，我们使用 Hugo 时，会直接使用现成的主题（Themes）。因为主题里面有现成的布局，这样我们就不需要关心如何定制布局，而只需要关注如何使用布局，然后专心内容的编写即可。&lt;/p>
 &lt;blockquote>
-&lt;p>当然，知道如何定制布局也非常有用，这将在下一章&amp;quot;&lt;a href="/docs/hugo/layout-custom/">布局定制&lt;/a>&amp;ldquo;讨论&lt;/p>
+&lt;p>当然，知道如何定制布局也非常有用，这将在下一章&amp;quot;&lt;a href="https://lawsssscat.github.io/hugo-usage-doc/docs/hugo/layout-custom/">布局定制&lt;/a>&amp;ldquo;讨论&lt;/p>
 &lt;/blockquote>
 &lt;p>了解如何使用布局，首先需要知道页面（Page）和页面布局（Layout）的对应关系。&lt;/p>
 &lt;p>下图展示了对应关系的几种可能：&lt;/p>
@@ -476,13 +476,13 @@ l3 --&amp;gt; l0&lt;/pre>
 &lt;iframe src="https://www.youtube.com/embed/ut1xtRZ1QOA" allowfullscreen="" title="Home Page Templates | Hugo - Static Site Generator | Tutorial 14" style="top: 0px; left: 0px; width: 544px; height: 306px; border: 0px;">&lt;/iframe>
 &lt;iframe src="https://www.youtube.com/embed/jrMClsB3VsY" allowfullscreen="" title="Section Templates | Hugo - Static Site Generator | Tutorial 15" style="top: 0px; left: 0px; width: 544px; height: 306px; border: 0px;">&lt;/iframe>
 &lt;iframe src="https://www.youtube.com/embed/QVOMCYitLEc" allowfullscreen="" title="Base Templates &amp;amp; Blocks | Hugo - Static Site Generator | Tutorial 16" style="top: 0px; left: 0px; width: 544px; height: 306px; border: 0px;">&lt;/iframe>
-&lt;iframe src="https://www.youtube.com/embed/pjS4pOLyB7c" allowfullscreen="" title="Partial Templates | Hugo - Static Site Generator | Tutorial 21" style="top: 0px; left: 0px; width: 544px; height: 306px; border: 0px;">&lt;/iframe></description></item><item><title>Docs: 布局定制（Layout-custom）📦</title><link>/docs/hugo/layout-custom/</link><pubDate>Sun, 22 Oct 2023 07:43:49 +0800</pubDate><guid>/docs/hugo/layout-custom/</guid><description>
+&lt;iframe src="https://www.youtube.com/embed/pjS4pOLyB7c" allowfullscreen="" title="Partial Templates | Hugo - Static Site Generator | Tutorial 21" style="top: 0px; left: 0px; width: 544px; height: 306px; border: 0px;">&lt;/iframe></description></item><item><title>Docs: 布局定制（Layout-custom）📦</title><link>https://lawsssscat.github.io/hugo-usage-doc/docs/hugo/layout-custom/</link><pubDate>Sun, 22 Oct 2023 07:43:49 +0800</pubDate><guid>https://lawsssscat.github.io/hugo-usage-doc/docs/hugo/layout-custom/</guid><description>
 &lt;p>官方文档：&lt;/p>
 &lt;ul>
 &lt;li>&lt;a href="https://gohugo.io/templates/">https://gohugo.io/templates/&lt;/a> (模板使用)&lt;/li>
 &lt;/ul>
 &lt;h2 id="模板引擎">模板引擎&lt;/h2>
-&lt;p>布局使用： 参考&amp;quot;&lt;a href="/docs/hugo/layout-usage/">布局使用&lt;/a>&amp;quot;&lt;/p>
+&lt;p>布局使用： 参考&amp;quot;&lt;a href="https://lawsssscat.github.io/hugo-usage-doc/docs/hugo/layout-usage/">布局使用&lt;/a>&amp;quot;&lt;/p>
 &lt;p>Hugo 使用 Go 中 &lt;a href="https://pkg.go.dev/html/template">html/template 库&lt;/a> 作为模板引擎。
 通过模板引擎，可以解析模板中的 &lt;code>{{...}}&lt;/code> 标签。
 标签 &lt;code>{{...}}&lt;/code> 在 Go 中称为 &amp;ldquo;Action&amp;rdquo; (动作)。
@@ -542,14 +542,14 @@ l3 --&amp;gt; l0&lt;/pre>
 &lt;li>&lt;a href="https://gohugo.io/variables/">https://gohugo.io/variables/&lt;/a> (变量列表)&lt;/li>
 &lt;li>&lt;a href="https://gohugo.io/functions/">https://gohugo.io/functions/&lt;/a> (函数列表)&lt;/li>
 &lt;/ul>
-&lt;p>本站示例： &lt;a href="/blog/2023/test-template/">测试模板中函数和变量的取值&lt;/a>&lt;/p>
+&lt;p>本站示例： &lt;a href="https://lawsssscat.github.io/hugo-usage-doc/blog/2023/test-template/">测试模板中函数和变量的取值&lt;/a>&lt;/p>
 &lt;p>视频教程：&lt;/p>
 &lt;iframe src="https://www.youtube.com/embed/ZyXlpKkgbFc" allowfullscreen="" title="Variables | Hugo - Static Site Generator | Tutorial 17" style="top: 0px; left: 0px; width: 544px; height: 306px; border: 0px;">&lt;/iframe>
 &lt;iframe src="https://www.youtube.com/embed/w1NkCb3IJd0" allowfullscreen="" title="Functions | Hugo - Static Site Generator | Tutorial 18" style="top: 0px; left: 0px; width: 544px; height: 306px; border: 0px;">&lt;/iframe>
 &lt;iframe src="https://www.youtube.com/embed/FyPgSuwIMWQ" allowfullscreen="" title="Data Files | Hugo - Static Site Generator | Tutorial 20" style="top: 0px; left: 0px; width: 544px; height: 306px; border: 0px;">&lt;/iframe>
 &lt;h2 id="逻辑">逻辑&lt;/h2>
 &lt;p>视频教程：&lt;/p>
-&lt;iframe src="https://www.youtube.com/embed/juSnHsCX9RU" allowfullscreen="" title="If Statements | Hugo - Static Site Generator | Tutorial 19" style="top: 0px; left: 0px; width: 544px; height: 306px; border: 0px;">&lt;/iframe></description></item><item><title>Docs: 内容管理（Content-Management）🔥</title><link>/docs/hugo/content-management/</link><pubDate>Sun, 22 Oct 2023 07:43:49 +0800</pubDate><guid>/docs/hugo/content-management/</guid><description>
+&lt;iframe src="https://www.youtube.com/embed/juSnHsCX9RU" allowfullscreen="" title="If Statements | Hugo - Static Site Generator | Tutorial 19" style="top: 0px; left: 0px; width: 544px; height: 306px; border: 0px;">&lt;/iframe></description></item><item><title>Docs: 内容管理（Content-Management）🔥</title><link>https://lawsssscat.github.io/hugo-usage-doc/docs/hugo/content-management/</link><pubDate>Sun, 22 Oct 2023 07:43:49 +0800</pubDate><guid>https://lawsssscat.github.io/hugo-usage-doc/docs/hugo/content-management/</guid><description>
 &lt;iframe src="https://www.youtube.com/embed/0GZxidrlaRM" allowfullscreen="" title="Creating &amp;amp; Organizing Content | Hugo - Static Site Generator | Tutorial 6" style="top: 0px; left: 0px; width: 544px; height: 306px; border: 0px;">&lt;/iframe>
 &lt;p>content 的目录结构&lt;/p>
 &lt;pre tabindex="0">&lt;code>└── content
@@ -573,7 +573,7 @@ l3 --&amp;gt; l0&lt;/pre>
 某个标签下的所有文章的列表 // [taxonomy] &amp;lt;- https://example.com/tags/one-tag **
 &lt;/code>&lt;/pre>&lt;blockquote>
 &lt;p>中括号&lt;code>[]&lt;/code>中标注的是页面的kind属性, 他们整体上分为两类: single(单页面 - page) 和 list(列表页 - home, section, taxonomyTerm, taxonomy).&lt;/p>
-&lt;/blockquote></description></item><item><title>Docs: 多语言支持（Multi-language）</title><link>/docs/hugo/language/</link><pubDate>Sun, 22 Oct 2023 07:43:49 +0800</pubDate><guid>/docs/hugo/language/</guid><description>
+&lt;/blockquote></description></item><item><title>Docs: 多语言支持（Multi-language）</title><link>https://lawsssscat.github.io/hugo-usage-doc/docs/hugo/language/</link><pubDate>Sun, 22 Oct 2023 07:43:49 +0800</pubDate><guid>https://lawsssscat.github.io/hugo-usage-doc/docs/hugo/language/</guid><description>
 &lt;p>官方文档：&lt;/p>
 &lt;ul>
 &lt;li>&lt;a href="https://gohugo.io/content-management/multilingual/">https://gohugo.io/content-management/multilingual/&lt;/a> (multilingual)&lt;/li>
