@@ -8,4 +8,4 @@ weight: 70
 
 官方文档： <https://www.docsy.dev/docs/adding-content/shortcodes/> (可用简码列表)
 
-使用参考： [Hugo 简码使用]({{< ref "docs/hugo/content-management/shortcode" >}})
+使用参考： [Hugo 简码使用]({{< ref "../hugo/content-management/shortcode" >}})

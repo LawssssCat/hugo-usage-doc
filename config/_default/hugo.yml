@@ -1,9 +1,15 @@
 baseURL: https://lawsssscat.github.io/hugo-usage-doc/
 title: Hugo 使用手册
-languageCode: zh-Hans
-defaultContentLanguage: en
 description: &site_description 整理使用 Hugo 时的常用资料以及使用心得
 theme: [docsy]
+
+# 如果为 true，则自动检测内容中的中文/日文/韩文语言。这将使得 .Summary 和 .WordCount 在 CJK 语言中正确工作。
+hasCJKLanguage: true
+
+languageCode: zh-Hans
+contentDir: "content/zh-cn"
+defaultContentLanguage: zh-cn
+defaultContentLanguageInSubdir: false
 
 enableRobotsTXT: true
 enableGitInfo: true
@@ -31,6 +37,7 @@ params:
   copyright: "-" 
   site_description: *site_description
   github_repo: *github_repo
+  github_branch: master
   # search
   offlineSearch: true
   algolia_docsearch: false
