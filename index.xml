@@ -227,7 +227,7 @@ console.log(&amp;#39;code block&amp;#39;);
 &lt;/tr>
 &lt;tr>
 &lt;td>.Position&lt;/td>
-&lt;td>&amp;quot;/home/runner/work/hugo-usage-doc/hugo-usage-doc/content/blog/2023/test-template.md:10:1&amp;quot;&lt;/td>
+&lt;td>&amp;quot;/home/runner/work/hugo-usage-doc/hugo-usage-doc/content/zh-cn/blog/2023/test-template.md:10:1&amp;quot;&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>.IsNamedParams&lt;/td>
@@ -276,16 +276,16 @@ console.log(&amp;#39;code block&amp;#39;);
 &lt;tr>&lt;td>.Page.IsTranslated&lt;/td>&lt;td>false&lt;/td>&lt;/tr>
 &lt;tr>&lt;td>.Page.Keywords&lt;/td>&lt;td>[]&lt;/td>&lt;/tr>
 &lt;tr>&lt;td>.Page.Kind&lt;/td>&lt;td>page&lt;/td>&lt;/tr>
-&lt;tr>&lt;td>.Page.Language&lt;/td>&lt;td>en&lt;/td>&lt;/tr>
-&lt;tr>&lt;td>.Page.Lastmod&lt;/td>&lt;td>2023-11-03 18:32:38 &amp;#43;0800 &amp;#43;0800&lt;/td>&lt;/tr>
+&lt;tr>&lt;td>.Page.Language&lt;/td>&lt;td>zh-cn&lt;/td>&lt;/tr>
+&lt;tr>&lt;td>.Page.Lastmod&lt;/td>&lt;td>2023-11-04 10:26:54 &amp;#43;0800 &amp;#43;0800&lt;/td>&lt;/tr>
 &lt;tr>&lt;td>.Page.LinkTitle&lt;/td>&lt;td>测试Template中函数/变量的取值&lt;/td>&lt;/tr>
-&lt;tr>&lt;td>.Page.Next&lt;/td>&lt;td>Page(/docs/hugo/language.md)&lt;/td>&lt;/tr>
+&lt;tr>&lt;td>.Page.Next&lt;/td>&lt;td>Page(/blog/2023/comparing-blog-frameworks.md)&lt;/td>&lt;/tr>
 &lt;tr>&lt;td>.Page.NextInSection&lt;/td>&lt;td>Page(/blog/2023/comparing-blog-frameworks.md)&lt;/td>&lt;/tr>
 &lt;tr>&lt;td>.Page.OutputFormats&lt;/td>&lt;td>[{canonical {html text/html index canonical false true false false true 10} /hugo-usage-doc/blog/2023/test-template/ https://lawsssscat.github.io/hugo-usage-doc/blog/2023/test-template/}]&lt;/td>&lt;/tr>
 &lt;tr>&lt;td>.Page.Permalink&lt;/td>&lt;td>https://lawsssscat.github.io/hugo-usage-doc/blog/2023/test-template/&lt;/td>&lt;/tr>
 &lt;tr>&lt;td>.Page.Plain&lt;/td>&lt;td>&lt;/td>&lt;/tr>
 &lt;tr>&lt;td>.Page.PlainWords&lt;/td>&lt;td>[]&lt;/td>&lt;/tr>
-&lt;tr>&lt;td>.Page.Prev&lt;/td>&lt;td>Page(/blog/2023/readme.md)&lt;/td>&lt;/tr>
+&lt;tr>&lt;td>.Page.Prev&lt;/td>&lt;td>Page(/docs/hugo/language.md)&lt;/td>&lt;/tr>
 &lt;tr>&lt;td>.Page.PrevInSection&lt;/td>&lt;td>Page(/blog/2023/readme.md)&lt;/td>&lt;/tr>
 &lt;tr>&lt;td>.Page.PublishDate&lt;/td>&lt;td>2023-10-22 07:43:49 &amp;#43;0800 &amp;#43;0800&lt;/td>&lt;/tr>
 &lt;tr>&lt;td>.Page.RawContent&lt;/td>&lt;td>todo
@@ -465,7 +465,7 @@ This is Content!
 &lt;/tr>
 &lt;tr>
 &lt;td>.Site.Language.Lang&lt;/td>
-&lt;td>en&lt;/td>
+&lt;td>zh-cn&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>.Site.Language.LanguageName&lt;/td>
@@ -477,7 +477,7 @@ This is Content!
 &lt;/tr>
 &lt;tr>
 &lt;td>.Site.Language&lt;/td>
-&lt;td>en&lt;/td>
+&lt;td>zh-cn&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>.Site.LanguageCode&lt;/td>
@@ -489,15 +489,15 @@ This is Content!
 &lt;/tr>
 &lt;tr>
 &lt;td>.Site.Languages&lt;/td>
-&lt;td>[en]&lt;/td>
+&lt;td>[zh-cn]&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>.Site.LastChange&lt;/td>
-&lt;td>2023-11-03 20:31:38 +0800 +0800&lt;/td>
+&lt;td>2023-11-04 10:26:54 +0800 +0800&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>.Site.Menus&lt;/td>
-&lt;td>map[main:[0xc0008cc1c0 0xc0008cc0e0 0xc0008cc000]]&lt;/td>
+&lt;td>map[main:[0xc00095c380 0xc00095c2a0 0xc00095c1c0]]&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>.Site.Pages&lt;/td>
